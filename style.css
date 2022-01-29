@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
 html{
     overflow: hidden;
 }
@@ -6,24 +8,43 @@ body{
     position: absolute;
     margin:0;
     bottom:10px;
-    right:10px;
 }
 
-.main{
+#imgbg{
+    position: absolute;
+    box-sizing: content-box;
+    width: 100%;
+    filter:blur(0px);
+}
+
+.wrapper{
+    display:grid;
     width:100vw;
     height: 100vh;
 }
 
-#imgbg{
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    width:105vw;
-    filter:blur(5px);
+.grid-child{
+    position:relative;
 }
 
+.top{
+    width:100vw;
+    top:9vh;
+}
 
-#wrapper{
-    display: grid;
-    
+h1{
+    font-family:"Open Sans", sans-serif;
+    color:white;
+    font-size:4em;
+    text-align:center; 
+}
+
+a{
+    font-family:"Roboto", sans-serif;
+    text-decoration:none;
+    text-align: center;
+}
+
+a:visited{
+    color:white;
 }
