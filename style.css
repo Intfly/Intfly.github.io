@@ -25,26 +25,43 @@ body{
 
 .grid-child{
     position:relative;
+    display: grid;
+    justify-content: center;
 }
 
 .top{
-    width:100vw;
-    top:9vh;
+    top:6vh;
+}
+
+.box{
+    height:fit-content;
+    padding:1em 1.25em;
+    border: solid .1em white;
+
 }
 
 h1{
     font-family:"Open Sans", sans-serif;
     color:white;
-    font-size:4em;
-    text-align:center; 
+    font-size:5em;
+    text-align:center;
+    margin:0; 
 }
 
 a{
     font-family:"Roboto", sans-serif;
+    color:white;
     text-decoration:none;
     text-align: center;
+    font-size:1.75em;
 }
 
 a:visited{
     color:white;
+}
+
+a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 0.07em;
+    text-underline-offset: .1em;
 }
