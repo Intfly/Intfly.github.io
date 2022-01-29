@@ -5,9 +5,8 @@ html{
 }
 
 body{
-    position: absolute;
     margin:0;
-    bottom:10px;
+    bottom:12px;
 }
 
 #imgbg{
@@ -18,9 +17,11 @@ body{
 }
 
 .wrapper{
+    position:absolute;
+    top:35vh;
     display:grid;
     width:100vw;
-    height: 100vh;
+    height: 55vh;
 }
 
 .grid-child{
@@ -30,25 +31,28 @@ body{
 }
 
 .top{
-    top:6vh;
+    position:absolute;
+    top:9vh;
+    width:100vw;
 }
 
 .box{
     height:fit-content;
-    padding:1em 1.25em;
+    width:100%;
+    padding:1em 0em;
     border: solid .1em white;
-
 }
 
 h1{
     font-family:"Open Sans", sans-serif;
     color:white;
-    font-size:5em;
+    font-size:6em;
     text-align:center;
     margin:0; 
 }
 
 a{
+    justify-content: center;
     font-family:"Roboto", sans-serif;
     color:white;
     text-decoration:none;
