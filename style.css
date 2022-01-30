@@ -38,7 +38,7 @@ body{
 
 .box{
     height:fit-content;
-    width:100%;
+    width:10em;
     padding:1em 0em;
     border: solid .1em white;
 }
@@ -52,12 +52,12 @@ h1{
 }
 
 a{
-    justify-content: center;
     font-family:"Roboto", sans-serif;
     color:white;
     text-decoration:none;
     text-align: center;
     font-size:1.75em;
+    display: block;
 }
 
 a:visited{
