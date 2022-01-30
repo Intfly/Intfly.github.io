@@ -75,4 +75,10 @@ a:hover{
       width:auto;
       height:100vh;
     }
+    .top{
+        top:6vh;
+    }
+    .wrapper{
+        top:25vh;
+    }
   }
